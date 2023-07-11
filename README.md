@@ -1,5 +1,5 @@
 # Oneshot-Part-CellSegmentation
-This repository is the official PyTorch implementation ''One-shot and Partially-Supervised Cell Image Segmentation Using Small Visual Prompt'' [[paper]](https://openaccess.thecvf.com/content/CVPR2023W/CVMI/papers/Kato_One-Shot_and_Partially-Supervised_Cell_Image_Segmentation_Using_Small_Visual_Prompt_CVPRW_2023_paper.pdf)
+This repository is the official PyTorch implementation ''One-shot and Partially-Supervised Cell Image Segmentation Using Small Visual Prompt'' accepted at CVPR2023: 8th IEEE Workshop on Computer Vision for Microscopy Image Analysis (CVMI) [[paper]](https://openaccess.thecvf.com/content/CVPR2023W/CVMI/papers/Kato_One-Shot_and_Partially-Supervised_Cell_Image_Segmentation_Using_Small_Visual_Prompt_CVPRW_2023_paper.pdf)
 
 ## Introduction
 <div align="center">
