@@ -5,7 +5,11 @@ This repository is the official PyTorch implementation ''One-shot and Partially-
 <div align="center">
   <img src="figs/git_fig1.png" width="80%">
 </div>
-Dice loss is widely used for medical image segmentation, and many improvement loss functions based on such loss have been proposed. However, further Dice loss improvements are still possible. In this study, we reconsidered the use of Dice loss and discovered that Dice loss can be rewritten in the loss function using the cosine similarity through a simple equation transformation. Using this knowledge, we present a novel t-vMF Dice loss based on the t-vMF similarity instead of the cosine similarity. Based on the t-vMF similarity, our proposed Dice loss is formulated in a more compact similarity loss function than the original Dice loss. Furthermore, we present an effective algorithm that automatically determines the parameter $\kappa$ for the t-vMF similarity using a validation accuracy, called Adaptive t-vMf Dice loss. Using this algorithm, it is possible to apply more compact similarities for easy classes and wider similarities for difficult classes, and we are able to achieve an adaptive training based on the accuracy of the class. Through experiments conducted on four datasets using a five-fold cross validation, we confirmed that the Dice score coefficient (DSC) was further improved in comparison with the original Dice loss and other loss functions.
+Semantic segmentation of microscopic cell images using deep learning is an important technique, however, it requires a large number of images and ground truth labels for training. 
+To address the above problem, we consider an efficient learning framework with as little data as possible, and we propose two types of learning strategies: Oneshot segmentation which can learn with only one training
+sample, and Partially-supervised segmentation which assigns annotations to only a part of images. 
+Furthermore, we introduce novel segmentation methods using the small prompt images inspired by prompt learning in recent studies. Our proposed methods use a pre-trained model based
+on only cell images and teach the information of the prompt pairs to the target image to be segmented by the attention mechanism, which allows for efficient learning while reducing the burden of annotation costs. Through experiments conducted on three types of microscopic cell image datasets, we confirmed that the proposed method improved the Dice score coefficient (DSC) in comparison with the conventional approaches.
 <br />
 <br />
 
