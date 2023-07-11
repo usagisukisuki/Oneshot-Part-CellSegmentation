@@ -14,19 +14,7 @@ Our proposed methods use a pre-trained model based on only cell images and teach
 <br />
 
 ## Preparation for preprocessing datasets
-Please download from [[Dataset]](https://drive.google.com/drive/folders/1q80fDpAM62jPR5p61_4BVzCX4I1KZMqt?usp=drive_link) and extract them under "data", and make them look like this:
-```
-data
-├── CVC-ClinicDB
-    ├── datamodel
-        ├── train_data_1.npy
-        ├── train_label_1.npy
-        ├── ...
-├── Kvasir-SEG
-├── ACDC
-`── Synapse
-
-```
+Coming soon...
 
 ## Training
 If you prepared the dataset, you can directly run the following code to train the model.
