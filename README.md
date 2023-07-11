@@ -3,7 +3,7 @@ This repository is the official PyTorch implementation ''One-shot and Partially-
 
 ## Introduction
 <div align="center">
-  <img src="figs/git_fig1.png" width="80%">
+  <img src="figs/Fig1.png" width="80%">
 </div>
 Semantic segmentation of microscopic cell images using deep learning is an important technique, however, it requires a large number of images and ground truth labels for training. 
 To address the above problem, we consider an efficient learning framework with as little data as possible, and we propose two types of learning strategies: One-shot segmentation which can learn with only one training
