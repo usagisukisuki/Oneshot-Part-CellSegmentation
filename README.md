@@ -45,9 +45,10 @@ sh test.sh
 <div align="center">
   <img src="figs/Fig2.png" width="100%">
 </div>
+
 ### Partially-supervised learning
 <div align="center">
-  <img src="figs/Fig2.png" width="100%">
+  <img src="figs/Fig3.png" width="100%">
 </div>
 
 ## Citation
