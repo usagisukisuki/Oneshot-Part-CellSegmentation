@@ -46,12 +46,11 @@ sh test.sh
 
 ## Citation
 ```
-@misc{kato2022adaptive,
-      title={Adaptive t-vMF Dice Loss for Multi-class Medical Image Segmentation}, 
-      author={Sota Kato and Kazuhiro Hotta},
-      year={2022},
-      eprint={2207.07842},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@inproceedings{kato2023one,
+  title={One-shot and Partially-Supervised Cell Image Segmentation Using Small Visual Prompt},
+  author={Kato, Sota and Hotta, Kazuhiro},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4294--4303},
+  year={2023}
 }
 ```
