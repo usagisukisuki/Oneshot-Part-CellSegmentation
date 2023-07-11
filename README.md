@@ -6,10 +6,10 @@ This repository is the official PyTorch implementation ''One-shot and Partially-
   <img src="figs/git_fig1.png" width="80%">
 </div>
 Semantic segmentation of microscopic cell images using deep learning is an important technique, however, it requires a large number of images and ground truth labels for training. 
-To address the above problem, we consider an efficient learning framework with as little data as possible, and we propose two types of learning strategies: Oneshot segmentation which can learn with only one training
+To address the above problem, we consider an efficient learning framework with as little data as possible, and we propose two types of learning strategies: One-shot segmentation which can learn with only one training
 sample, and Partially-supervised segmentation which assigns annotations to only a part of images. 
-Furthermore, we introduce novel segmentation methods using the small prompt images inspired by prompt learning in recent studies. Our proposed methods use a pre-trained model based
-on only cell images and teach the information of the prompt pairs to the target image to be segmented by the attention mechanism, which allows for efficient learning while reducing the burden of annotation costs. Through experiments conducted on three types of microscopic cell image datasets, we confirmed that the proposed method improved the Dice score coefficient (DSC) in comparison with the conventional approaches.
+Furthermore, we introduce novel segmentation methods using the small prompt images inspired by prompt learning in recent studies. 
+Our proposed methods use a pre-trained model based on only cell images and teach the information of the prompt pairs to the target image to be segmented by the attention mechanism, which allows for efficient learning while reducing the burden of annotation costs. Through experiments conducted on three types of microscopic cell image datasets, we confirmed that the proposed method improved the Dice score coefficient (DSC) in comparison with the conventional approaches.
 <br />
 <br />
 
